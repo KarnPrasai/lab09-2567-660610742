@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function Footer(props) {
+interface propObject {
+    year : number;
+    fullName : string;
+    studentId : number;
+}
+
+export default function Footer(props : propObject) {
   return (
     <div className="mt-3">
       <p className="text-secondary text-center">
